@@ -44,8 +44,7 @@ public class Сalculator  {
                        throw (Throwable) Exception;
                    } catch (Throwable throwable) {
                        System.out.println("Деление на ноль");
-                       throwable.printStackTrace();
-                       return;
+                                             return;
                    }
                 }
                 }
